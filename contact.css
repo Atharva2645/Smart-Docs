@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+header {
+    background-color: #050404;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.smartDoc h1 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #ddd;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons .btn {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007BFF;
+}
+
+.auth-buttons .btn:hover {
+    background-color: #0056b3;
+}
+.container {
+    max-width: 2000px;
+    text-align: left;
+    padding: 0px 20px;
+    margin: 0 60px;
+    display: flex;
+}
+
+.contact-info {
+    margin-left: 20px;
+    flex: 1;
+}
+
+h1 {
+    color: rgb(59, 2, 108);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+h2 {
+    font-family: Copperplate, Papyrus, fantasy;
+    color: rgb(3, 92, 170);
+    font-size: 30px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+h3 {
+    color: rgb(76, 85, 92);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+p {
+    color: rgb(76, 85, 92);
+    font-family: Tahoma, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.contact-info {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.contact-image{
+    width: 25%;
+    margin-top:200px ;
+    margin-right:10px;
+}
+
+.contact-info img {
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-info img:hover {
+    transform: scale(1.1);
+}
+.contact-icons {
+    padding:2px;
+    width: 2em;
+    display: inline-block;
+    margin-right: 10px;
+    align-items: center;
+}
+footer.p{
+    align-items: center;
+}
+.social-icons {
+
+}
